@@ -12,3 +12,4 @@ function retornaFuncao (nome) {
 const funcao = retornaFuncao('Luiz');
 const funcao2 = retornaFuncao('Joao');
 console.log(funcao(), funcao2());
+console.log(funcao, funcao2);
