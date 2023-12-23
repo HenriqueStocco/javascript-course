@@ -7,6 +7,7 @@
 // }
 
 // Como em todas as linguagens, nunca exibir esse erro para os usuarios
+// typeof mostra o tipo do dado apresentado
 
 
 function soma(x, y) {
