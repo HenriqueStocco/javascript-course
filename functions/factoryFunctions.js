@@ -18,7 +18,7 @@ function criaPessoa(nome, sobrenome, altura, peso) {
         sobrenome,
         // Getter
         get nomeCompleto() {
-            return `${this.nome} ${this.sobrenome}`
+            return `${this.nome} ${this.sobrenome}`;
         },
 
         // Setter
