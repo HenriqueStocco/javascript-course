@@ -1,4 +1,9 @@
 {
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontSize": 15,
+  "editor.cursorStyle": "underline",
+  "terminal.integrated.cursorStyle": "underline",
+  "editor.fontSize": 14.5,
   "editor.tabSize": 4,
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 80,
