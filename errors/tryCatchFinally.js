@@ -6,6 +6,8 @@ try {
     // E sempre executado
 }
 
+// instanceof verifica se algo que voce esta passando e uma instancia do objeto comparado
+// Nesse caso abaixo, esta verificando se data nao e uma instancia do objeto Date se nao for, apresenta o erro ...
 
 function retornaHora(data) {
     if (data && !(data instanceof Date)) {
