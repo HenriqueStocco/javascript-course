@@ -13,7 +13,7 @@ function soma(x, y) {
     if (
         typeof x !== 'number' ||
         typeof y !== 'number'
-        ) {
+    ) {
         // throw e igual raise no python
         // new e uma funcao construtora, ela cria um novo objeto de classe
         // e esse throw new Error ira afetar o catch, ira aparecer o erro com o nome
@@ -24,8 +24,8 @@ function soma(x, y) {
     return x + y;
 }
 try {
-console.log(soma(1, 3));
-console.log(soma('1', 3));
+    console.log(soma(1, 3));
+    console.log(soma('1', 3));
 } catch (error) {
     console.log(error);
 }
